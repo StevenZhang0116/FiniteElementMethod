@@ -1,0 +1,121 @@
+% ========= copy to plot ==========
+filename = 'eigenrmp1.mat';          
+dim = 30;                   
+R_range = [10 20 40 50 60 70 80];                 
+m_range = [1 2 3 4 5 6 7 8 10];                 
+P_0_range = logspace(-2, -1, 3)
+% %====================================%
+
+
+% ========= copy to plot ========== % copy and paste this box to "plottingpad.m"
+filename = 'eigenrmp2.mat';          % file namen (change every time!) 
+dim = 30;                     % number of basis vectors
+R_range = [10, 20];                   %
+m_range = [1 2 3 4 5];                 %
+P_0_range = [0.5 1 2 4 8 16 32 64 128]; %
+% %======================================%
+
+% ========= copy to plot ========== % copy and paste this box to "plottingpad.m"
+filename = 'eigenrmp3.mat';          % file namen (change every time!) 
+dim = 30;                     % number of basis vectors
+R_range = [10, 20];                   %
+m_range = [1 2 3 4 5];                 %
+P_0_range = [0.5 1 2 4 8 16 32 64 128]; %
+% %======================================%
+
+% ========= copy to plot ========== % copy and paste this box to "plottingpad.m"
+filename = 'eigenrmp4.mat';          % file namen (change every time!) 
+dim = 30;                     % number of basis vectors
+R_range = [10, 20];                   %
+m_range = [1 2 3 4 5 6];                 %
+P_0_range = [8]; %
+% %======================================%
+
+% ========= copy to plot ========== % copy and paste this box to "plottingpad.m"
+filename = 'eigenrmp5.mat';          % file namen (change every time!) 
+dim = 30;                                         % number of basis vectors
+R_range = [10];                   %
+m_range = [1 2 3 4];                 %
+P_0_range = logspace(-5, 5, 30); %
+% %======================================%
+
+% ========= copy to plot ========== % copy and paste this box to "plottingpad.m"
+filename = 'eigenrmp6.mat';          % file namen (change every time!) 
+dim = 20;                                         % number of basis vectors
+R_range = [10];                   %
+m_range = [1 2 3 4];                 %
+P_0_range = linspace(0, 100, 50);  %
+% %======================================%
+
+% ========= copy to plot ========
+filename = 'eigenrmp7.mat';         
+dim = 20;                             
+R_range = [20 40 60 80];        
+m_range = [1 2 3 4 5];                                 
+P_0_range = logspace(-5, 5, 30);                   
+% %===============================
+
+% ========= copy to plot ========
+filename = 'eigenrmp8.mat';         
+dim = 20;                             
+R_range = [20];        
+m_range = [1 2 3 4 5];                                 
+P_0_range = linspace(1, 10000, 50);                   
+% %===============================
+
+% ========= copy to plot ========
+filename = 'eigenrmp9.mat';         
+dim = 20;                             
+R_range = [20];        
+m_range = [1 2 3 4 5];                                 
+P_0_range = logspace(-1, 4, 50);                   
+% %===============================
+
+% ========= copy to plot ========
+filename = 'eigenrmp10.mat';         
+dim = 20;                             
+R_range = [20 40 60 80];        
+m_range = [1 2 3 4 5];                                 
+P_0_range = linspace(3, 5, 4);                   
+% %===============================
+
+% ========= copy to plot ========== 
+filename = 'eigenrmp11.mat';        
+dim = 30;                                        
+R_range = [40];             
+m_range = [1];      
+P_0_range = linspace(100,1000,10);  
+% %==========================
+
+% ========= copy to plot ========== 
+filename = 'eigenrmp12.mat';        
+dim = 30;                                        
+R_range = [40];             
+m_range = [1];      
+P_0_range = logspace(1, 3, 20);  
+% %==========================
+
+% ========= copy to plot ========== 
+filename = 'eigenrmp13.mat';        
+dim = 30;                                        
+R_range = [40];             
+m_range = [1, 2, 3, 4];      
+P_0_range = [200];
+% %==========================
+
+% ========= copy to plot ========== 
+filename = 'eigenrmp14.mat';        
+dim = 30;                                        
+R_range = [10, 13, 16, 19, 22];             
+m_range = [1];      
+P_0_range = [100];
+% %==========================
+
+% ========= copy to plot ========== 
+filename = 'eigenrmp15.mat';        
+dim = 30;                                        
+R_range = [20];             
+m_range = [1];      
+P_0_range = 10:10:100;
+% %==========================
+
